@@ -1,0 +1,59 @@
+.section__voca {
+  width: 70vw;
+  height: 140px;
+  background-color: rgba(128, 121, 106, 0.445);
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.section__voca a {
+  text-decoration: none;
+}
+
+.container__voca {
+  height: 100%;
+  padding: 0 20px;
+  border-radius: 3px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: cornsilk;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.type {
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.innerbox__type {
+  background-color: rgb(127, 141, 87);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .section__voca {
+    height: 100px;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
+  .type {
+    font-size: 0.8rem;
+  }
+  .innerbox__type {
+    width: 40px;
+    height: 40px;
+  }
+}
