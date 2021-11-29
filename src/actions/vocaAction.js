@@ -1,4 +1,4 @@
-export default (title, type, example) => {
+const vocaAction = (title, type, example) => {
   return {
     type: "addVoca",
     payload: {
@@ -8,3 +8,5 @@ export default (title, type, example) => {
     },
   };
 };
+
+export default vocaAction;

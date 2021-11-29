@@ -2,7 +2,6 @@ import React from "react";
 import Voca from "./Voca";
 import "./Vocas.css";
 import updateVoca from "../../actions/vocaAction";
-import deleteVoca from "../../actions/deleteAction";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 

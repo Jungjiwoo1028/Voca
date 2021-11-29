@@ -16,7 +16,7 @@ const vocaData = [
   },
 ];
 
-export default (state = vocaData, action) => {
+const vocaReducer = (state = vocaData, action) => {
   if (action.type === "addVoca") {
     const newState = [...state, action.payload];
     return newState;
@@ -29,3 +29,5 @@ export default (state = vocaData, action) => {
   }
   return state;
 };
+
+export default vocaReducer;

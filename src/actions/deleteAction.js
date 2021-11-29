@@ -1,4 +1,4 @@
-export default (title, type, example) => {
+const deleteAction = (title, type, example) => {
   return {
     type: "deleteVoca",
     payload: {
@@ -8,3 +8,5 @@ export default (title, type, example) => {
     },
   };
 };
+
+export default deleteAction;
