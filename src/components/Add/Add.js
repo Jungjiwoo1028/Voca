@@ -123,7 +123,7 @@ function Add(props) {
             onChange={exampleHandler}
             value={exampleState.value}
           />
-          <Link to="/">
+          <Link to="/Voca">
             <button
               className="btn__save"
               disabled={!formIsValid}

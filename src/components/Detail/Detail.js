@@ -21,7 +21,7 @@ function Detail(props) {
           <div className="box__title">{title}</div>
           <div className="box__type">{type}</div>
           <div className="box__example">{example}</div>
-          <Link to="/">
+          <Link to="/Voca">
             <button
               className="btn__delete"
               onClick={() => deleteVoca(title, type, example)}

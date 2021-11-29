@@ -7,10 +7,10 @@ function Navbar() {
     <section className="section__navbar">
       <div className="container__navbar">
         <div className="box__logo">
-          <Link to="/">My voca</Link>
+          <Link to="/Voca">My voca</Link>
         </div>
         <div className="box__add">
-          <Link to="/add">Add</Link>
+          <Link to="/Voca/add">Add</Link>
         </div>
       </div>
     </section>

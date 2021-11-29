@@ -10,7 +10,7 @@ function Voca(props) {
     <section className="section__voca">
       <Link
         to={{
-          pathname: `/detail/${props.title}`,
+          pathname: `/Voca/detail/${props.title}`,
           state: {
             title: props.title,
             type: props.type,
